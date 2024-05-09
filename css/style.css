@@ -30,7 +30,7 @@ section#login {
     background-color: white;
     border-radius: 20px;
     width: 250px;
-    height: 510px;
+    height: 500px;
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.514);
     transition: 0.5s;
@@ -41,7 +41,7 @@ section > div#imagem {
     background: var(--cor1) url(../img/planoFundo.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 250px;
+    height: 240px;
 }
 section > div#formulario {
     display: block;
@@ -55,6 +55,17 @@ div#formulario > p {
     margin-bottom: 10px;
     font-size: 0.8em;
 }
+div.campo > label {
+    display: none;
+}
+div.campo {
+    display: block;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
 label {
     font-size: 0.8em;
 }
@@ -62,12 +73,12 @@ form > input[type=submit]{
     display: block;
     font-size: 1em;
     width: 100%;
-    height: 40px;
+    height: 35px;
     background-color: var(--cor1);
     color: white;
     border: none;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -78,11 +89,11 @@ form > input[type=submit]:hover {
 
 a.botao {
     display: block;
-    background-color: var(--cor2);
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 5px;
     border: 1px solid var(--cor1);
     width: 100%;
-    height: 40px;
+    height: 35px;
     text-align: center;
     font-size: 1em;
     text-decoration: none;
@@ -91,6 +102,6 @@ a.botao {
     margin-top: 5px;
 }
 a.botao:hover {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     color: black;
 }
