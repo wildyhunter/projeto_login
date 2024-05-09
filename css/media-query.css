@@ -1,19 +1,21 @@
  @charset "utf-8";
 
- :root {
-    --cor1: #239CF7;
-    --cor2: #23DFF7;
-    --cor3: #00F5C0;
-    --cor4: #00F56D;
+:root {
+    --cor1: #34193f;
+    --cor2: #804597;
+    --cor3: #E8AEFF;
+    --cor4: #07929c;
+
 }
 
  @media screen and (min-width: 768px) and (max-width:992px) {
 
     body {
-        background-image: linear-gradient(to top, var(--cor4), var(--cor3), var(--cor2));
+        background-image: linear-gradient(var(--cor1),var(--cor4));
     }
     section#login {
         width: 90vw;
+        height: 300px;
     }
     section#login > div#imagem {
         float: left;
@@ -24,14 +26,21 @@
         float: right;
         width: 80%;
     }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1em;
+    }
  }
 
  @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, var(--cor4), var(--cor3), var(--cor2));
+        background-image: linear-gradient(var(--cor1),var(--cor4));
     }
     section#login {
         width: 950px;
+        height: 300px;
     }
     section#login > div#imagem {
         float: right;
